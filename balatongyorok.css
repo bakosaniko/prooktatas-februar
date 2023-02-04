@@ -1,12 +1,52 @@
 body{
     background-image: url(./img/back.jpg);
     background-size: cover;
-    width: 1000px;
-    align-content: center;
-    margin: 10%;
+    max-width: 1000px;
+    margin: auto
 }
 header{
-    min-height: 650px;
-    min-width: 1000px;
+background-image: url(./img/panorama.jpg);
+background-position: 0%;
+background-size: cover;
+display: block;
 
+
+
+}
+h1{
+    padding: 2% 1% 0.5% 2%;
+}
+#batsanyi{
+    float: left;
+    display: block;
+    width: 45%;
+    background-color: grey;
+    padding: 2%;
+    margin: 0.5%;
+}
+#belmatyas{
+    display: block;
+    float: left;
+    width: 45%;
+    background-color: grey;
+    padding: 2%;
+    margin: 0.5%;
+}
+
+#cimer {
+    width: 150px;
+    margin: 10px;
+    align: right;
+    
+
+}
+#szoveg{
+    font-weight: bolder;
+    padding: 1%;
+}
+table, tr, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 1.5%;
+    background-color: cornflowerblue;
 }
